@@ -6,12 +6,4 @@ class apache::service {
     hasrestart => true,
   }
 
-  service { 'jbcs-httpd24-httpd':
-    ensure     => running,
-    enable     => true,
-    hasstatus  => true,
-    hasrestart => true,
-    before     => 'httpd',
-  }
-
 } 
