@@ -1,0 +1,15 @@
+{
+  "name": "pmichael-apache",
+  "version": "0.1.0",
+  "author": "pmichael",
+  "summary": "This Module manages the Apache package",
+  "license": "Apache-2.0",
+  "source": "https://github.com/michpm15/apache.git",
+  "project_page": "https://github.com/michpm15/apache",
+  "issues_url": "https://github.com/michpm15/apache/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
